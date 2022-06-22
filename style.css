@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'digital-7-mono';
+    src: url('font/digital-7-mono.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    /* 수평 */
+    justify-content: center;
+    /* 수직 */
+    align-items: center;
+    /* 콘텐츠 영역을 전체로 */
+    height: 100vh;
+}
+
+.clock {
+    background: #999;
+    box-shadow: 
+    4px 4px 6px rgba(0, 0, 0, 0.3), 
+    0 0 8px rgba(0, 0, 0, 0.7) inset;
+    /* width: 400px; */
+    height: 140px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #333;
+    border-radius: 10px;
+    font-size: 90px;
+    font-family: 'digital-7-mono', monospace;
+}
+
+.clock .container {
+    display: flex;
+}
+
